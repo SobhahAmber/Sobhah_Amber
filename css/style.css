@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+
+html{
+  height: 100%;
+  width: 100%;
+  font-family: "Tajawal", sans-serif;
+  color: #222;
+}
+
+body{
+  background-color: #372c2e;
+  color: #FFFFFF;
+}
+
+p{
+  font-family: "Tajawal",sans-serif;
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+hr{
+  border-top: 2px solid #DE9E48;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.display-2{
+  font-weight: 500;
+}
+.display-4{
+  font-family: "Tajawal",sans-serif;
+  font-weight: 700;
+}
+
+.customer-gurantee{
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem ;
+}
+
+.sticky-top{
+  background-color: #DE9E48 !important;
+}
+
+.nav-item{
+  padding: 1rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+}
+
+.nav-link{
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: right;
+}
+
+.navbar-nav li{
+  font-family: "Tajawal";
+}
+
+.navbar-toggler{
+  background-color: #FFFFFF;
+  border-color: #000 !important;
+  border-width: 2px;
+  outline: none !important;
+}
+
+.back-button{
+  background-color: transparent;
+  border: transparent;
+  font-family: "Tajawal";
+  font-weight: 500;
+  color: #DE9E48;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+
+.padding-fix{
+  padding-right: 0px;
+}
+
+.separator-hr-main{
+  border-top: 2px solid #222;
+  width: 0%;
+  margin-top: .3rem;
+  position: absolute;
+  right: 0px;
+  padding-bottom: .3rem;
+}
+
+.separator-hr{
+  border-top: 1px solid #222;
+  height: 1px;
+  display: block;
+  width: 100%;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+}
+
+.logo-display{
+  width: 35%; 
+  height: auto;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+  font-size: 7.5vw;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 7px #000;
+}
+
+/*
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+*/
+
+.btn-primary{
+  background-color: #7A4d1d;
+  border: 1px solid #372c2e;
+  outline: none !important;
+}
+
+.btn-primary:hover{
+  background-color: #372c2e;
+  border: 1px solid #000;
+}
+
+.btn-primary:active{
+  background-color: #372c2e !important;
+  border: 1px solid #000 !important;
+}
+
+.jumbotron{
+  padding: 10px;
+  border-radius: 0px;
+  margin-bottom: 1rem;
+  background-color: #7A4d1d;
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+.padding-category-title{
+  padding-bottom: 1.5rem;
+}
+
+.padding-category-section{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.my-hr{
+  height: 1px;
+  display: block;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.Category-Card{
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: rgb(200, 199, 199);
+  margin-bottom: 5px;
+  height: 200px;
+  color: #ffffff;
+}
+
+.Category-Card div{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, 80%);
+  text-align: center;
+  width: 250px;
+}
+
+.category-picture{
+  height: 100%;
+}
+
+.category-title{
+  font-family: "Tajawal",sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 0 6px #000000;
+}
+
+.category-title-upshift{
+  transform: translate(-50%, 40%) !important;
+}
+
+.icon-sizing-ig{
+  font-size: 32px;
+  color: #c154ff;
+}
+
+.icon-sizing-wh{
+  font-size: 32px;
+  color: #25d366;
+}
+
+.gurantee-icons{
+  font-size: 4.5rem;
+  color: #DE9E48;
+  margin-bottom: 1.5rem;
+}
+
+footer{
+  background-color: #3a3a3a;
+  color: #FFF;
+  padding-top: 2rem;
+}
+
+.footer-contact{
+  padding-top: 1rem;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+hr.light{
+  height: 1px;
+  display: block;
+  width: 60%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+hr.light-100{
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+.FollowUs{
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.arabic-tag{
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+
+.center-gurantee-text{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.padding-footer-bottom{
+  padding-bottom: 0rem;
+}
+
+/*---------- Home Page ------------*/
+ .carousel-indicators-home{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+ }
+
+
+/*---------- Product Page ------------*/
+
+.product-card-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.carousel-indicators.product{
+  bottom: -5px;
+}
+
+.product-description{
+  height: max-content;
+}
+
+.product-price-card{
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #7A4d1d;
+  padding: 20px;
+  height: auto;
+  color: #ffffff;
+}
+
+.price-card-text{
+  text-align: right;
+  font-weight: 700;
+}
+
+.price-card-text-price{
+  font-weight: 400;
+}
+
+.price-card-text-last{
+  margin-bottom: auto;
+}
+
+.order-now-text{
+  padding-top: 1rem;
+}
+
+.price-and-order{
+  bottom: auto;
+}
+
+.image-column-padding{
+  padding-left: 3rem !important;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.description-column-padding{
+  padding-right: 3rem !important;
+}
+
+.image-box-position{
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.image-resolution{
+  /*min-height: 700px;
+  min-width: 700px;*/
+  height: auto !important;
+  max-width: 600px;
+  border-radius: 3%;
+}
+
+.product-section-padding{
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+
+/*---Return Policy---*/
+
+.policy-text{
+  text-align: right;
+  font-weight: 500;
+  font-size: large;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 1350px) {
+  .image-resolution{
+    /*min-height: 700px;
+    min-width: 700px;*/
+    height: auto !important;
+    max-width: 500px;
+    
+  }
+
+}
+
+@media (max-width: 1145px) {
+  .image-resolution{
+    /*min-height: 700px;
+    min-width: 700px;*/
+    height: auto !important;
+    max-width: auto;
+   
+  }
+
+}
+
+@media (max-width: 945px) {
+  .image-box-position{
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+}
+
+@media (max-width: 837px) {
+  
+  .carousel-caption{
+    top: 45%;
+  }
+  
+  /*
+  .carousel-caption h3{
+    font-size: 140%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: .2rem;
+  }
+  */
+
+  .carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .display-4{
+    font-size: 300%;
+  }
+
+  .nav-item{
+    width: min-content;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .separator-hr-main{
+    width: 0%;
+  }
+
+  .nav-item-1{
+    padding-top: .4rem;
+  }
+  
+  .nav-item-4{
+    padding-bottom: 0rem;
+  }
+
+  .carousel-caption{
+    top: 45%;
+  }
+  
+  /*
+  .carousel-caption h3{
+    font-size: 140%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: .2rem;
+  }
+  */
+
+  .carousel-caption .btn{
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .display-4{
+    font-size: 250%;
+  }
+
+  .center-gurantee-text{
+    width: 85%;
+  }
+
+  .image-column-padding{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+  
+  .description-column-padding{
+    padding-right: 1rem !important;
+  }
+
+  .image-resolution{
+    /*min-height: 700px;
+    min-width: 700px;*/
+    max-width: 600px;
+    
+  }
+}
+
+@media (max-width: 767px) {
+  .separator-hr-main{
+    width: 100%;
+  }
+  .nav-item-1{
+    padding-top: 1.3rem;
+  }
+
+  .nav-item{
+    width: max-content;
+  }
+
+  .icon-sizing-ig{
+    font-size: 21px;
+    color: #c154ff;
+  }
+  
+  .icon-sizing-wh{
+    font-size: 21px;
+    color: #25d366;
+  }
+}
+
+@media (max-width: 679px) {
+  .image-box-position{
+    margin: 0 auto;
+    width: auto;
+    height: min-content;
+    
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption{
+    top: 40%;
+  }
+  
+  /*
+  .carousel-caption h3{
+    font-size: 110%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: .2rem;
+  }
+  */
+
+  .carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+
+  .display-4{
+    font-size: 250%;
+  }
+
+  .center-gurantee-text{
+    width: 85%;
+  }
+
+  .image-column-padding{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .product-section-padding {
+    padding-top: 1rem;
+}
+}
+
+@media (max-width: 432px){
+  .carousel-caption{
+    top: 35%;
+  }
+  
+  /*
+  .carousel-caption h3{
+    font-size: 110%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: .2rem;
+  }
+  */
+
+  .carousel-caption .btn{
+    font-size: 90%;
+    padding: 4px 8px;
+    outline: none !important;
+  }
+
+  .display-4{
+    font-size: 250%;
+  }
+
+  .center-gurantee-text{
+    width: 85%;
+  }
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Product card
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <a href="amber-products/amber-product-1.html">
+        <div class="Category-Card">
+            <img class="product-card-image" src="img/products/" alt="products">
+            <!--
+            <p>ADD IMAGE HERE</p> 
+            <div> 
+                <h3 class="category-title">1</h3>
+                <p>Description</p>
+            </div>
+            -->
+        </div>
+    </a>
+</div>
