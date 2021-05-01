@@ -45,8 +45,20 @@ a:hover{
   margin-bottom: 1.5rem ;
 }
 
+.Amber-Card{
+  width: fit-content; 
+  height: fit-content !important; 
+  margin: auto;
+}
+
+.Amber-Card-Img{
+  width: 600px !important;
+	height: 300px !important;
+}
+
 .sticky-top{
   background-color: #DE9E48 !important;
+  top: -1px;
 }
 
 .nav-item{
@@ -529,8 +541,17 @@ hr.light-100{
     margin: 0 auto;
     width: auto;
     height: min-content;
-    
   }
+
+  .Amber-Card{
+    height: 200px !important;
+  }
+
+  .Amber-Card-Img{
+    height: 100% !important;
+    width: 100% !important;
+  }
+
 }
 
 @media (max-width: 576px) {
