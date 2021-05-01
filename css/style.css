@@ -609,11 +609,11 @@ hr.light-100{
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
-  transition: -webkit-transform 0.5s ease !important;
-  transition: transform 0.5s ease!important;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease!important;
-  -webkit-backface-visibility: visible!important;
-  backface-visibility: visible!important;
+  transition: -webkit-transform 0.5s ease ;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
 }
 /*--- Fixed Background Image --*/
 figure {
