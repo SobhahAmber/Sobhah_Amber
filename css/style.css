@@ -38,6 +38,11 @@ a:hover{
   font-weight: 700;
 }
 
+.carousel-inner{
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+}
+
 .customer-gurantee{
   font-family: "Tajawal", sans-serif;
   font-weight: 700;
