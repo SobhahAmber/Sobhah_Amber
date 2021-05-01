@@ -12,8 +12,6 @@ body{
   background-color: #372c2e;
   color: #FFFFFF;
   overflow-x: hidden;
-  -webkit-transform: translateZ(0) !important; 
-  -moz-transform: translateZ(0) !important;
 }
 
 p{
@@ -39,11 +37,6 @@ a:hover{
 .display-4{
   font-family: "Tajawal",sans-serif;
   font-weight: 700;
-}
-
-.carousel-inner{
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
 }
 
 .customer-gurantee{
